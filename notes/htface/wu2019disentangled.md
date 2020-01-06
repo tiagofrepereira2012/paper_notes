@@ -10,6 +10,6 @@ The authors proposed a framework to disantangle those variables for the case of 
 This disentanglement framework is composed of many parts and its training is full of tricks, I will try to summarize its key points as follow:
 
   - It is assumed that spectrum differences lies in a linear manifold. This is important for future assumptions
-  - Given ![\{x^{i} \in \mathbb{R}^d \}](https://render.githubusercontent.com/render/math?math=%5C%7Bx%5E%7Bi%7D%20%5Cin%20%5Cmathbb%7BR%7D%5Ed%20%5C%7D)  and 
+  - Given ![\{x^{i} \in \mathbb{R}^d \}](https://render.githubusercontent.com/render/math?math=%5C%7Bx%5E%7Bi%7D%20%5Cin%20%5Cmathbb%7BR%7D%5Ed%20%5C%7D) and ![\{x^{i} \in \mathbb{R}^h \}](https://render.githubusercontent.com/render/math?math=%5C%7Bx%5E%7Bi%7D%20%5Cin%20%5Cmathbb%7BR%7D%5Eh%20%5C%7D) independent variables of one identity `i`, it is hypothesized that ![\z^{i} = \mu^{i} + \epsilon  \odot \sigma^{i}](https://render.githubusercontent.com/render/math?math=%5Cz%5E%7Bi%7D%20%3D%20%5Cmu%5E%7Bi%7D%20%2B%20%5Cepsilon%20%20%5Codot%20%5Csigma%5E%7Bi%7D) 
 
 
