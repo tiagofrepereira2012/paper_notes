@@ -5,10 +5,10 @@ I will use the image from Figure 3 (below) to explain their strategy.
 
 ![](iranmanesh2019coupled.png)
 
-In the image, the first encoder/decoder (called Vis-GAN) is responsible to build reconstructions with of VIS (Visual light images) images.
-The second encoder/decoder (called NVis GAN) is responsible to generated VIS images from a **non** VIS inputs.
+In the image, the first encoder/decoder (called Vis-GAN) is responsible to build reconstructions of VIS (Visual light images) images.
+The second encoder/decoder (called NVis GAN) is responsible to generated VIS images from **non** VIS inputs.
 The bottlenecks of both networks are coupled by the [contrastive loss](http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf), which the intention to preserve identity information.
-At test time only the NVis GAN is used, where a VIS images is synthesized from a NVis image.
+At test time only the NVis GAN is used, where a VIS images are synthesized from a NVis image.
 Future comparisons are carried our with regular face recognition systems.
 
 ## Key points
@@ -23,5 +23,5 @@ Future comparisons are carried our with regular face recognition systems.
 
 The authors say that the two subnetworks are GANs.
 However, no noise images are used at training time.
-It seems that the task of the discriminator is somewhat easy.
+Not saying that this is a requirement for training GANs, but it seems that the task of the discriminator is somewhat easier.
 Maybe I'm wrong.
