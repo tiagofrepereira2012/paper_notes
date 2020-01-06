@@ -10,3 +10,4 @@ This repo contains some paper notes that I would like (and hope) to maintain in 
  - [ ] Multi-Margin based Decorrelation Learning for Heterogeneous Face Recognition: [[link](https://www.ijcai.org/proceedings/2019/0096.pdf)]
  - [ ] Heterogeneous Face Recognition Based on Multiple Deep Networks With Scatter Loss and Diversity Combination - [[link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8731895)]
  - [ ] LAMP-HQ: A Large-Scale Multi-Pose High-Quality Database for NIR-VIS Face Recognition: [[link](https://arxiv.org/abs/1912.07809)]
+ - [ ] Disentangled Variational Representation for Heterogeneous Face Recognition: [[link](https://arxiv.org/pdf/1809.01936.pdf)]
