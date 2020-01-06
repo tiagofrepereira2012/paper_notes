@@ -15,4 +15,6 @@ Comparisons are made between the synthesized VIS image and original VIS image us
  - It's not clear that at test time you need the 3D image to learn the rotations. If so, this is a drawback
  - Handle NIR-VIS databases only
  - One of their losses (Identity Preserving Loss) **needs to have a pair of images** sensed in different image modalities.
+ - No source code available
  
+
