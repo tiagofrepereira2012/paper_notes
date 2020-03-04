@@ -12,3 +12,8 @@ This repo contains some paper notes that I would like (and hope) to maintain in 
  - [ ] LAMP-HQ: A Large-Scale Multi-Pose High-Quality Database for NIR-VIS Face Recognition: [[link](https://arxiv.org/abs/1912.07809)]
  - [x] Disentangled Variational Representation for Heterogeneous Face Recognition: [[link](https://arxiv.org/pdf/1809.01936.pdf)][[notes](./notes/htface/wu2019disentangled.md)]
 
+
+## Fairness in Face recognition
+
+ - [ ] Racial Faces in-the-Wild: Reducing Racial Bias by Information Maximization Adaptation Network [[link](https://arxiv.org/pdf/1812.00194.pdf)[notes]()]
+ - [ ] Mitigate Bias in Face Recognition using Skewness-Aware Reinforcement Learning [[link](https://arxiv.org/pdf/1911.10692.pdf)[notes]()]
