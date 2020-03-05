@@ -88,9 +88,9 @@ It's possible to observe that the majority of the systems works in the nominal F
 The figure below (Figure 12 p.46) and also Figure 13 p.48 shows the different FMR with such `T` from two different systems (imperial\_002 and yitu_003).
 Again, same trends can be observed for the rest of the evaluated systems.
 
-** Finding 7**: As expected, it was observed high FMR for the female cohorts (no matter the ethnicity) compared with males (`T` was defined with white males only).
+**Finding 7**: As expected, it was observed high FMR for the female cohorts (no matter the ethnicity) compared with males (`T` was defined with white males only).
 
-** Finding 8**: Highest FMR with American Indians.
+**Finding 8**: Highest FMR with American Indians.
 
 **Personal observation:** I don't know the purpose of this test.
 It makes sense to calibrate `T` according with the cohort.
@@ -99,7 +99,7 @@ Maybe they want to be able to calibrate scores with the subpopulation that they 
 
 #### The impact of age
 
-**Experiment:** Using high quality application portraits it was compared 442.019 images from 24 countries with 441.517 images of different individuals within and across the following age groups: (00 − 20], (20 − 35], (35 − 50], (50 − 65], and (65 − 99].
+**Experiment:** Using high quality application portraits, 442.019 images from 24 countries was compared with 441.517 images of different individuals within and across the following age groups: (00 − 20], (20 − 35], (35 − 50], (50 − 65], and (65 − 99].
 The threshold `T` was computed over a set of 93.070.400 imposter comparisons made using a different set of images, namely the mugshots (Annex 1).
 The threshold is the smallest value that for which the FMR is less than or equal to 0.00003.
 The figure below (Figure 15 p.50) shows the FMR for imperial\_002 for different age sub populations with all impostor pairs and with impostor pairs matching the same gender and same region of birth.
