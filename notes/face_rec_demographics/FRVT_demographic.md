@@ -106,14 +106,14 @@ The figure below (Figure 15 p.50) shows the FMR for imperial\_002 for different 
 
 ![](frvt_images/figure15.png)
 
-**Finding 9:** Highest error rates when imposters match the two age extremes (the youngest and the eldest).
+**Finding 9:** Highest error rates when imposters belongs to the two age extremes (the youngest and the eldest).
 
-**Finding 10:** Corroborating with other findings, once other imposter covariates are matched, such as gender and region of birth, FMR drastically increases.
+**Finding 10:** Corroborating with other findings, once imposter cohorts are matched, such as gender and region of birth, FMR drastically increases.
 
 
 ### False negatives evaluation.
 
-False negatives (false rejection or false match) occur when samples from the same individual, when compared, present a score **lower** than a decision threshold `T` (such threshold is a fixed value for most biometric systems).
+False negatives (false rejection or false non match) occur when samples from the same individual, when compared, present a score **lower** than a decision threshold `T` (such threshold is a fixed value for most biometric systems).
 The risk of false negatives in a biometric system depends of the application, of course, but it is pretty obvious (i'll not discuss this here and just go direct to the point).
 In the topics below it is summarized the findings about the impact of different demographics in the **genuine** score distribution.
 
@@ -128,7 +128,7 @@ The figure below (Figure 17 p.54) shows `FNMR(T)` box plots for each cohort.
 ![](frvt_images/figure17.png)
 
 
-**Finding 11:** "FNMR is absolutely low" (p.54). FNMR varies from ~0.5% to ~2.2% among all cohorts. NIST considers this a low value (FMR is at 0.01%). **Is it?**.
+**Finding 11:** "FNMR is absolutely low" (p.54). FNMR varies from ~0.5% to ~2.2% among all cohorts. NIST considers this a low value (FMR is at 0.01%). **Is it?**. It seems that they care more about FMR than FNMR.
 
 **Finding 12:** FNMR from African and African americans are the lowest ones **AND** way higher for Indians and Asians (more spread too).
 
@@ -138,7 +138,7 @@ The figure below (Figure 17 p.54) shows `FNMR(T)` box plots for each cohort.
 #### Image quality of the probes vs different social covariates
 
 **Experiment:** In this experiment (p.53) it's evaluated the impact of the quality of the probes vs different covariates in terms of `FNMR(T)`.
-To address that, high quality images from passport applications (see annex 2) were used to create biometric references were compared with the corresponding pairs of images from boarding crossing frames (see Annex 4; **BY LOOKING AT THE ANNEX, THEY USE THE MEDS DATASET THAT WE HAVE HERE AT IDIAP**).
+To address that, high quality images from passport applications (see annex 2) were used to create biometric references and compared with the corresponding pairs of images from boarding crossing frames (see Annex 4; **BY LOOKING AT THE ANNEX, THEY USE THE MEDS DATASET THAT WE HAVE HERE AT IDIAP**).
 There's no information on how many identities were tested.
 I have the impression that the experiments from chapter 4 and 5 were written by different people.
 The quality of chapter 4 is way superior than chapter 5.
