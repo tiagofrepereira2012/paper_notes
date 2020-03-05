@@ -53,8 +53,8 @@ Once the impostors are matched according to different cohorts (same age, gender 
 
 #### False match rates within and across countries
 
-**Experiment**: Using high quality images, 442.019 images from 24 countries were compared with 441.517 images of different individuals from the same countries and `FMR(T)` was measured.
-This analysis also was carried by **gender** and the target **age was (35-50]** years old (they call this age zone as "real world impostors").
+**Experiment**: 442.019 high quality images from 24 countries were compared with 441.517 images of different individuals from the same countries and `FMR(T)` was measured.
+This analysis also was carried by **gender** focusing only in the target **age (35-50]**  (they call this age zone as "real world impostors").
 The threshold `T` was set in another dataset (law enforcement mugshots) containing 93.070.400 imposters (I'm assuming mostly americans) and it corresponds to FMR at 0.00003 in this distribution.
 The figure below (p. 35) shows a FMR hit map (in `log10` with the lower bound clip in -6) containing all the country combinations.
 This analysis was carried out with the system imperial\_002 (more systems in the Annex 7).
