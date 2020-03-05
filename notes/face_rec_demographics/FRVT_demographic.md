@@ -39,8 +39,8 @@ In the topics below it is summarized the findings about the impact of different 
 #### False match rates under demographic pairing.
 
 **Experiment**: In p. 30 it's described (for all systems) the impact (in terms of `FMR(T)`) of matching pairs of impostors based on specific cohorts.
-For this, **they pick `T` that corresponds to FMR at 0.00003** from a random impostor score distribution (not looking to the covariates).
-Then several experiments were carried out varying by changing how the imposters are grouped (measuring FMR(T)); as it can be observed in the figure below and in Figute 4 of the report (p .33).
+For this, **they pick `T` that corresponds to FMR at 0.00003** from a random impostor score distribution (not looking to any covariate).
+Then, several experiments were carried out by changing how imposters are grouped; as it can be observed in the figure below and in Figute 4 of the report (p .33).
   
 
 ![](frvt_images/figure3.png)
@@ -53,7 +53,7 @@ Once the impostors are matched according to different cohorts (same age, gender 
 
 #### False match rates within and across countries
 
-**Experiment**: Using high quality images, it was 442019 images from 24 countries were compared with 441517 images of different individuals from the same countries and `FMR(T)` was measured.
+**Experiment**: Using high quality images, 442.019 images from 24 countries were compared with 441.517 images of different individuals from the same countries and `FMR(T)` was measured.
 This analysis also was carried by **gender** and the target **age was (35-50]** years old (they call this age zone as "real world impostors").
 The threshold `T` was set in another dataset (law enforcement mugshots) containing 93.070.400 imposters (I'm assuming mostly americans) and it corresponds to FMR at 0.00003 in this distribution.
 The figure below (p. 35) shows a FMR hit map (in `log10` with the lower bound clip in -6) containing all the country combinations.
