@@ -77,14 +77,14 @@ The reason for those shifts are unknown and "no attempts to explain these effect
 
 Another view of those findings can be seem in the figure below (Figures 8, 9, 10 and 11 from p. 42).
 In these figures all the 126 systems were put into perspective with two sub-populations (East Europe vs West Africa and East Europe vs East Asia).
-It's possible to observe that the majority of the systems works in the nominal FMR zone for **East European male cohort** and way above the nominal FMR for **females, West african and East Asia** cohorts.
+It's possible to observe that the majority of the systems works in the nominal FMR zone for **East European male cohort** and way above the nominal FMR for **females, West african and East Asia** cohorts (please look at Figures 9, 10 and 11 p.40).
 
 ![](frvt_images/figure8.png)
 
 #### Dependence of the threshold `T` in FMR using impostors from USA
 
 
-**Experiment**: The goal was to observe the impact a threshold `T` (FMR at 0.0001) with an impostor set of 3.000.000 mugshots from white males in different ethnicity cohorts and gender cohorts (i suppose this represents a little the ethnicities in the USA).
+**Experiment**: The goal was to observe the impact, in different ethnicities and gender, of a threshold `T` computed at FMR 0.00001 using an impostor set of 3.000.000 mugshots from white males.
 The figure below (Figure 12 p.46) and also Figure 13 p.48 shows the different FMR with such `T` from two different systems (imperial\_002 and yitu_003).
 Again, same trends can be observed for the rest of the evaluated systems.
 
