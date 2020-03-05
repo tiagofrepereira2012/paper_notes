@@ -147,7 +147,7 @@ The figure below shows the `FNMR(T)` (p.55) using the best 52 face recognition s
 Furthermore, the analysis is split in to two age cohorts (>=45 and <45).
 `T` was defined with FMR at 0.00001 using an imposter score distribution containing all the covariates.
 
-**Finding 14**: With very little exceptions, AGAIN, FNMR for women are higher than for man under the ethnicity.
+**Finding 14**: With very little exceptions, AGAIN, FNMR for women are higher than for man no matter the ethnicity.
 
 **Finding 15**: Overall, FNMR varies at lot. In this experiment (p.55) it varies from 0.1% to 10%. 
 Looking at annex 14 i could see systems providing errors **above 80% under the same constraints** (see annex 14 p.48).
