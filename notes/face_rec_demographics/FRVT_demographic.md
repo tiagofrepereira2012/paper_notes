@@ -56,7 +56,7 @@ Once the impostors are matched according to different cohorts (same age, gender 
 **Experiment**: 442.019 high quality images from 24 countries were compared with 441.517 images of different individuals from the same countries and `FMR(T)` was measured.
 This analysis also was carried by **gender** focusing only in the target **age (35-50]**  (they call this age zone as "real world impostors").
 The threshold `T` was set in another dataset (law enforcement mugshots) containing 93.070.400 imposters (I'm assuming mostly americans) and it corresponds to FMR at 0.00003 in this distribution.
-The figure below (p. 35) shows a FMR hit map (in `log10` with the lower bound clip in -6) containing all the country combinations.
+The figure below (p. 35) shows the `FMR(T)` hit map (in `log10` with the lower bound clip in -6) containing all the country combinations.
 This analysis was carried out with the system imperial\_002 (more systems in the Annex 7).
 **IMPORTANT** All the trends observed here, was observed for other systems too.
 
@@ -76,7 +76,7 @@ This analysis was carried out with the system imperial\_002 (more systems in the
 The reason for those shifts are unknown and "no attempts to explain these effects" were provided (p. 40).
 
 Another view of those findings can be seem in the figure below (Figures 8, 9, 10 and 11 from p. 42).
-In these figures all the 126 were put into perspective with two sub-populations (East Europe vs West Africa and East Europe vs East Asia).
+In these figures all the 126 systems were put into perspective with two sub-populations (East Europe vs West Africa and East Europe vs East Asia).
 It's possible to observe that the majority of the systems works in the nominal FMR zone for **East European male cohort** and way above the nominal FMR for **females, West african and East Asia** cohorts.
 
 ![](frvt_images/figure8.png)
