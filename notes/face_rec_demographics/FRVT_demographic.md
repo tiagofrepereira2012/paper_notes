@@ -38,16 +38,17 @@ In the topics below it is summarized the findings about the impact of different 
 
 #### False match rates under demographic pairing.
 
-**Experiment**: In p. 30 it's described (for all systems) the impact (in terms of FMR) of matching pairs of impostors scores based on the covariate.
-For this, **they pick `T` that corresponds to 0.00003** of a impostor score distribution from **random people** (not looking to the covariates).
-Then, using this `T` as a reference they start to pair imposters scores based on different covariates and measure the FMR; as it can be observed in the figure below and in Figute 4 of the report (p .33).
+**Experiment**: In p. 30 it's described (for all systems) the impact (in terms of `FMR(T)`) of matching pairs of impostors based on specific cohorts.
+For this, **they pick `T` that corresponds to FMR at 0.00003** from a random impostor score distribution (not looking to the covariates).
+Then several experiments were carried out varying by changing how the imposters are grouped (measuring FMR(T)); as it can be observed in the figure below and in Figute 4 of the report (p .33).
   
 
 ![](frvt_images/figure3.png)
 
 
-**Finding 1**: FMR is higher once the covariates from impostor distributions match.
-From a random pair of distributions FMR is lower than when pairs are matched based on age, gender and ethnicity.
+**Finding 1**: FMR increases once the pairs of impostors are from the same cohort.
+For a group of impostors from random cohorts, FMR is lower.
+Once the impostors are matched according to different cohorts (same age, gender and ethnicity groups) FMR increases.
 
 
 #### False match rates within and across countries
