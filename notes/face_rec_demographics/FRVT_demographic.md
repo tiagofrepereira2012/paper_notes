@@ -1,10 +1,7 @@
 # Face Recognition Vendor Test - Part 3: Demographic effects
 
-Do some intro
-
-This summary should be "digested" with the NIST report on the side.
-
-It's very clear that they target some populations.
+This is a summary of the most important parts from the FRVT 2019 [Part 3](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf), where demographics were addressed.
+This should be "digested" with the NIST report on the side.
 
 ## About the dataset
 
@@ -42,15 +39,15 @@ In the topics below it is summarized the findings about the impact of different 
 
 #### False match rates under demographic pairing.
 
-**Experiment**: In p. 30 it's described (for all systems) the impact (in terms of FMR) of matching the impostors and genuines score distributions based on the covariate.
+**Experiment**: In p. 30 it's described (for all systems) the impact (in terms of FMR) of matching the impostors score distributions based on the covariate.
 For this, **they pick `T` that corresponds to 0.00003** of a impostor score distribution from **random people** (not looking to the covariates).
-Then, using this `T` as a reference they start to pair the impostors and the genuines score distribution based on different covariates and measure the FMR as it can be observed in the figure below and in Figute 4 of the report (p .33).
+Then, using this `T` as a reference they start to pair the imposters score distribution based on different covariates and measure the FMR as it can be observed in the figure below and in Figute 4 of the report (p .33).
   
 
 ![](frvt_images/figure3.png)
 
 
-**Finding 1**: FMR is higher once the covariates from genuines and impostor distributions match.
+**Finding 1**: FMR is higher once the covariates from impostor distributions match.
 From a random pair of distributions FMR is lower than when pairs are matched based on age, gender and ethnicity.
 
 
@@ -84,9 +81,76 @@ It's possible to observe that the majority of the systems works in the nominal F
 
 ![](frvt_images/figure8.png)
 
+#### Dependence of the threshold `T` in FMR using impostors from USA
 
 
-## Identification findings
+**Experiment**: The goal was to observe the impact a threshold `T` (FMR at 0.0001) with an impostor set of 3.000.000 mugshots from white males in different ethnicity cohorts and gender cohorts (i suppose this represents a little the ethnicities in the USA).
+The figure below (Figure 12 p.46) and also Figure 13 p.48 shows the different FMR with such `T` from two different systems (imperial\_002 and yitu_003).
+Again, same trends can be observed for the rest of the evaluated systems.
 
+** Finding 7**: As expected, it was observed high FMR for the female cohorts (no matter the ethnicity) compared with males (`T` was defined with white males only).
+
+** Finding 8**: Highest FMR with American Indians.
+
+**Personal observation:** I don't know the purpose of this test.
+It makes sense to calibrate `T` according with the cohort.
+Maybe they want to be able to calibrate scores with the subpopulation that they have most samples.
+
+
+#### The impact of age
+
+**Experiment:** Using high quality application portraits it was compared 442.019 images from 24 countries with 441.517 images of different individuals within and across the following age groups: (00 − 20], (20 − 35], (35 − 50], (50 − 65], and (65 − 99].
+The threshold `T` was computed over a set of 93.070.400 imposter comparisons made using a different set of images, namely the mugshots (Annex 1).
+The threshold is the smallest value that for which the FMR is less than or equal to 0.00003.
+The figure below (Figure 15 p.50) shows the FMR for imperial\_002 for different age sub populations with all impostor pairs and with impostor pairs matching the same gender and same region of birth.
+
+![](frvt_images/figure15.png)
+
+**Finding 9:** Highest error rates when imposters match the two age extremes (the youngest and the eldest).
+
+**Finding 10:** Corroborating with other findings, once other imposter covariates are matched, such as gender and region of birth, FMR drastically increases.
+
+
+### False negatives evaluation.
+
+False negatives (false rejection or false match) occur when samples from the same individual, when compared, present a score **lower** than a decision threshold `T` (such threshold is a fixed value for most biometric systems).
+The risk of false negatives in a biometric system depends of the application, of course, but it is pretty obvious (i'll not discuss this here and just go direct to the point).
+In the topics below it is summarized the findings about the impact of different demographics in the **genuine** score distribution.
+
+
+#### Mugshot-Mugshot tests 
+
+**Experiment:** In this experiment (p.53) it was analysed the demographic effects of genuine score distributions in groups defined by gender and four different ethnicity labels extracted in a mugshot database from "people from United States" (see p.53 and Annex 1).
+`FNMR(T)` is reported from the **top 52 best** performing system, where the **threshold `T` was taken from the threshold that corresponds to FMR at 0.00001 over an imposters distribution from the same dataset mixing all sorts of covariates**.
+The figure below (Figure 17 p.54) shows `FNMR(T)` box plots for each cohort.
+
+
+![](frvt_images/figure17.png)
+
+
+**Finding 11:** "FNMR is absolutely low" (p.54). FNMR varies from ~0.5% to ~2.2% among all cohorts. NIST considers this a low value (FMR is at 0.01%). **Is it?**.
+
+**Finding 12:** FNMR from African and African americans are the lowest ones **AND** way higher for Indians and Asians (more spread too).
+
+**Finding 13:** **WOMEN give higher FNMR**. This is a trend observed in all conducted experiments no matter the metric.
+
+
+#### Image quality of the probes vs different social covariates
+
+**Experiment:** In this experiment (p.53) it's evaluated the impact of the quality of the probes vs different covariates in terms of `FNMR(T)`.
+To address that, high quality images from passport applications (see annex 2) were used to create biometric references were compared with the corresponding pairs of images from boarding crossing frames (see Annex 4; **BY LOOKING AT THE ANNEX, THEY USE THE MEDS DATASET THAT WE HAVE HERE AT IDIAP**).
+There's no information on how many identities were tested.
+I have the impression that the experiments from chapter 4 and 5 were written by different people.
+The quality of chapter 4 is way superior than chapter 5.
+The figure below shows the `FNMR(T)` (p.55) using the best 52 face recognition systems where gender and ethnicities vary.
+Furthermore, two age cohorts are defined (>=45 and <45).
+`T` was defined with FMR at 0.00001 using an imposter score distribution containing all the covariates.
+
+**Finding 14**: With very little exceptions, AGAIN, FNMR for women are higher than for man under the ethnicity.
+
+**Finding 15**: Overall, FNMR varies at lot. In this experiment (p.55) it varies from 0.1% to 10%. 
+Looking at annex 14 i could see systems providing errors **above 80% under the same constraints** (see annex 14 p.48).
+
+**Finding 16**: Higher FNMR in subjects from African and Caribean countries.
 
 
