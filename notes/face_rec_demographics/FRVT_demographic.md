@@ -1,7 +1,7 @@
 # Face Recognition Vendor Test - Part 3: Demographic effects
 
-This is a summary of the most important parts from the FRVT 2019 [Part 3](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf), where demographics were addressed.
-This should be "digested" with the NIST report on the side.
+This is a summary of the most important parts from the FRVT 2019 [Part 3](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf), where demographics was addressed.
+This should be "digested" with the NIST report on the side, since the report is cited all the time.
 
 ## About the dataset
 
@@ -27,7 +27,6 @@ Together this dataset contains:
 
 The set of analysis for face verification (from p. 28) are split in to 2 parts.
 The first one focus on **Impostors (False Positives evaluation - p.28)** and the second one focus on **Genuines (False negatives evaluation - p. 53)**.
-For the sake of simplicity, I will enumerate each finding and point to the particular page in the report.
 
 
 ### False positives evaluation.
@@ -39,9 +38,9 @@ In the topics below it is summarized the findings about the impact of different 
 
 #### False match rates under demographic pairing.
 
-**Experiment**: In p. 30 it's described (for all systems) the impact (in terms of FMR) of matching the impostors score distributions based on the covariate.
+**Experiment**: In p. 30 it's described (for all systems) the impact (in terms of FMR) of matching pairs of impostors scores based on the covariate.
 For this, **they pick `T` that corresponds to 0.00003** of a impostor score distribution from **random people** (not looking to the covariates).
-Then, using this `T` as a reference they start to pair the imposters score distribution based on different covariates and measure the FMR as it can be observed in the figure below and in Figute 4 of the report (p .33).
+Then, using this `T` as a reference they start to pair imposters scores based on different covariates and measure the FMR; as it can be observed in the figure below and in Figute 4 of the report (p .33).
   
 
 ![](frvt_images/figure3.png)
