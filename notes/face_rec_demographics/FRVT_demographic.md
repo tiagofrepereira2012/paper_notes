@@ -140,10 +140,11 @@ The figure below (Figure 17 p.54) shows `FNMR(T)` box plots for each cohort.
 **Experiment:** In this experiment (p.53) it's evaluated the impact of the quality of the probes vs different covariates in terms of `FNMR(T)`.
 To address that, high quality images from passport applications (see annex 2) were used to create biometric references and compared with the corresponding pairs of images from boarding crossing frames (see Annex 4; **BY LOOKING AT THE ANNEX, THEY USE THE MEDS DATASET THAT WE HAVE HERE AT IDIAP**).
 There's no information on how many identities were tested.
-I have the impression that the experiments from chapter 4 and 5 were written by different people.
+I have the impression that the experiments from chapters 4 and 5 were written by different people.
 The quality of chapter 4 is way superior than chapter 5.
+
 The figure below shows the `FNMR(T)` (p.55) using the best 52 face recognition systems where gender and ethnicities vary.
-Furthermore, two age cohorts are defined (>=45 and <45).
+Furthermore, the analysis is split in to two age cohorts (>=45 and <45).
 `T` was defined with FMR at 0.00001 using an imposter score distribution containing all the covariates.
 
 **Finding 14**: With very little exceptions, AGAIN, FNMR for women are higher than for man under the ethnicity.
