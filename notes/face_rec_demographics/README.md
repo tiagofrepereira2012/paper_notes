@@ -13,6 +13,11 @@
  - [ ] The impact of age and threshold variation on facial recognition algorithm performance using images of children  [[link](https://ieeexplore.ieee.org/document/8411225)[notes]()]
  
  
+## The 2nd Workshop on Demographic Variation in the Performance of Biometric Systems
+
+ - [ ] The 2nd Workshop on Demographic Variation in the Performance of Biometric Systems [[link](https://arxiv.org/pdf/2002.00065.pdf)]
+ - [ ] Mitigating Algorithmic Bias: Evolving anAugmentation Policy that is Non-Biasing [[link](http://openaccess.thecvf.com/content_WACVW_2020/papers/w1/Smith_Mitigating_Algorithmic_Bias_Evolving_an_Augmentation_Policy_that_is_Non-Biasing_WACVW_2020_paper.pdf)
+ - [ ] Reducing Geographic Performance Differentials for Face Recognitio [[link](https://arxiv.org/pdf/2002.12093.pdf)]
  
  
  
