@@ -3,9 +3,9 @@
 
 ## In a nutshell
 
-In the paper the authors describe basically the impact of age using one COTS system offered by NEC.
+In this paper the authors described basically the impact of age using one COTS system offered by NEC.
 The major finding is a study carried out in a massive dataset (PRIVATE) of mugshots (~4.6M images from the australian population).
-They demonstrated in that both FMR and FNMR are high once age is very low (0-4 years old) and once the difference in age between the comparison pairs is very large (>3 years).
+They demonstrated in that FMR and FNMR are high once age is very low (0-4 years old) and once the difference in age between the comparison pairs is very large (>3 years).
 
 Findings are similar than the ones from NIST report, but the experiments in this paper are more granular.
 Unfortunatelly, NEC didn't provide a face verification system, so we can't cross-correlate this paper with that [report](../FRVT_demographic.md).
@@ -13,13 +13,12 @@ Unfortunatelly, NEC didn't provide a face verification system, so we can't cross
 ## More details
 
 The target population analysed was people from [0-17] years old with age variation from pairs of images varying from [0-10] years.
-Follow the image bellow a map of the dataset.
+Follow in the image below a map of the dataset.
 
 ![](the_impact_of_age_and_threshold/database.png)
 
 Two major experiments were carried out.
-In the **first one**, a fixed FMR threshold was picked at 0.001 from a target population of impostors from adults (> 17 years old).
-And FNMR and FMR were put input perspective.
+In the **first one**, a fixed FMR threshold was picked at 0.001 from a target population of impostors from adults (> 17 years old) and FNMR and FMR were put input perspective.
 
 The FMR plot below shows that the COTS system starts to consistently operate under the operation point from the age of 10.
 
