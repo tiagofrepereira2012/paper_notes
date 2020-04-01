@@ -10,7 +10,7 @@
  - [ ] The effect of broad and specific demographic homogeneity on the imposter distributions and false match rates in face recognition algorithm performance [[link](https://mdtf.org/publications/broad-and-specific-homogeneity.pdf)[notes]()]
  - [ ]Characterizing the Variability in Face Recognition Accuracy Relative to Race [[link](https://arxiv.org/abs/1904.07325)[notes]()]
  - [ ] Us study: better image quality could cut face system bias
- - [ ] The impact of age and threshold variation on facial recognition algorithm performance using images of children  [[link](https://ieeexplore.ieee.org/document/8411225)[notes]()]
+ - [ ] The impact of age and threshold variation on facial recognition algorithm performance using images of children  [[link](https://ieeexplore.ieee.org/document/8411225)] [notes](./the_impact_of_age_and_threshold.md)]
  
  
 ## The 2nd Workshop on Demographic Variation in the Performance of Biometric Systems
