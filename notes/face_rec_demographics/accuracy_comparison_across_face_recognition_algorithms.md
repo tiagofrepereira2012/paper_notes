@@ -3,22 +3,20 @@
 
 ## In a nutshell
 
-This paper presents some underlying factors and methodological approach to assess biases (racial biases for instance) in face recognition databases.
-Such factors are split in two categories: Data-driven and Scenario-modeling.
-The Data-driven factors, can be, image quality, model (NN architecture), statistics of some sub-population.
-Scenario modelling consider some demographic constraints or/and decision thresholds per sub-population.
-Experiments were carried our in the GBU database where there's an equal distribution of Asia and Caucasian men.
+This paper presents some underlying factors and methodological approaches to assess biases (racial biases for instance) in face recognition databases.
+Such factors are split into two categories: Data-driven and Scenario-modeling.
+The Data-driven factors can be, image quality, model (NN architecture), statistics of some sub-population.
+Scenario modeling consider some demographic constraints or/and decision thresholds per sub-population.
+Experiments were carried out in the GBU database where there's an equal distribution of Asia and Caucasian men.
 The concludes with a check-list for measure racial bias.
-
-
 
 ## More details
 
 
-The paper starts paraprasing the bias of face recognition algorithmm with the ORE (other-race effect) that's being observed for more than 50 years in humans in different races and in different groups.
+The paper starts paraphrasing the bias of face recognition algorithms with the ORE (other-race effect) that's being observed for more than 50 years in humans in different races and in different groups.
 We tend to better recognize better people from our own race rather than others and we have been observing this on FR algorithms.
 This ORE has been observed in face recognition systems for more than 30 years (Lessons 1 and 2 in the paper)
-Some good references on ORE are: 
+Some good references on ORE are:
 
 [1] R. S. Malpass and J. Kravitz, "Recognition for faces of own and other
 race." Journal of personality and social psychology, vol. 13, no. 4,
@@ -41,8 +39,8 @@ Scenario-modeling
     – demographic-pairing: modeling the homogeneity of the different-identity distribution
 
 
-To analyse those factors the authors designed an experiment using 4 FR systems.
-One before DCNN era and (a score fusion of the best systems from FRVT 2006.
+To analyze those factors the authors designed an experiment using 4 FR systems.
+One before the DCNN era and (a score fusion of the best systems from FRVT 2006.
 The other three are VGG16, [3] and [4]  (the last 2 there are no code available)
 
 
@@ -53,10 +51,9 @@ The other three are VGG16, [3] and [4]  (the last 2 there are no code available)
 
 For the database, they resuscitated GBU database (Good, Bad and Ugly).
 For the record, this dataset contains 1,085 images of 437 identities in each partition.
-The dataset includes frontal images that vary in environment (e.g., indoors and outdoors) and demographics (race, age, gender).
+The dataset includes frontal images that vary in the environment (e.g., indoors and outdoors) and demographics (race, age, gender).
 All images were collected within a single academic year.
 GBU dataset was selected for this study because "(1) race in the GBU dataset is self-reported, (2) the conditions under which the images were taken are identical across and within race groups, and (3) age range is narrow which limits other confounding demographics".
-
 
 For this experiment, a subset samples from GBU were selected.
 The rules are the following:
@@ -73,9 +70,9 @@ After this prunning, the condensed GBU consisted of:
 
 ## Fidings
 
-**Finding 1** During the **Experiments**, it was observed that biases (high FNMR) was only observed at very low FMR (0.0001).
+**Finding 1** During the **Experiments**, it was observed that biases (high FNMR) were only observed at very low FMR (0.0001).
 
-**Finding 2** Image quality matters. Biases were more proeminet in UGLY subset.
+**Finding 2** Image quality matters. Biases were more prominent in UGLY subset.
 
-**Finding 3** These findinds corroborates with the ones from [NIST](../FRVT_demographic.md) report.
+**Finding 3** These findings corroborates with the ones from [NIST](../FRVT_demographic.md) report.
 
