@@ -33,3 +33,8 @@ It was argued that an adaptative threshold (carefully tuned by age) would improv
 
 ![](the_impact_of_age_and_threshold/FMR_variable.png)
 
+## Findings
+
+**Finding 1**. Nice dataset they gathered
+
+**Finding 2**. Some observations from NIST report about age, althought this dataset is nmore granullar.
