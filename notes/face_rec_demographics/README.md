@@ -7,7 +7,7 @@
  - [ ] Demographic effects in facial recognition and their dependence on image acquisition: An evaluation of eleven commercial systems. [[link](https://ieeexplore.ieee.org/document/8636231)[notes]()]
  - [ ] Face Verification Subject to Varying (Age, Ethnicity, and Gender) Demographics Using Deep Learning [[link](https://www.hilarispublisher.com/open-access/face-verification-subject-to-varying-age-ethnicity-and-genderdemographics-using-deep-learning-2155-6180-1000323.pdf)[notes]()]
  - [ ] The effect of broad and specific demographic homogeneity on the imposter distributions and false match rates in face recognition algorithm performance [[link](https://mdtf.org/publications/broad-and-specific-homogeneity.pdf)[notes]()]
- - [ ]Characterizing the Variability in Face Recognition Accuracy Relative to Race [[link](https://arxiv.org/abs/1904.07325)[notes]()]
+ - [x] Characterizing the Variability in Face Recognition Accuracy Relative to Race [[link](https://arxiv.org/abs/1904.07325)] [[notes](./characterizing_the_variability_in_face.md)]
  - [ ] Us study: better image quality could cut face system bias
  - [x] The impact of age and threshold variation on facial recognition algorithm performance using images of children  [ [link](https://ieeexplore.ieee.org/document/8411225)] [ [notes](./the_impact_of_age_and_threshold.md) ]
  - [ ] DebFace: De-biasing Face Recognition [ [link](https://arxiv.org/abs/1911.08080)] [ [notes]() ]
