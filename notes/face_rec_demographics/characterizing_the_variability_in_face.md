@@ -38,4 +38,4 @@ They should have done the same plot as the one before on this page.
 
 **Finding 2**. Nice experiments comparing the statistics between score distribution plots
 
-**Finding 2**. It seems that image quality doesn't suppress biases. Biases can be observed even in high-quality ICAO images
+**Finding 3**. It seems that image quality doesn't suppress biases. Biases can be observed even in high-quality ICAO images
