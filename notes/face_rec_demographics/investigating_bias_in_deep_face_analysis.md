@@ -18,7 +18,7 @@ A method to mitigate biases was also presented, but not well evaluated in my opi
 **About biases in FR;** An assessment on how FR systems are w.r.t demographics of the KANFace was carried out using the Light CNN, VGG16 and restnet 50.
 However, only rank 1 recognition rate in a closed-set scenario is used as metric, which is very raw as a metric.
 
-**About biases mitigation;** The regularization mechanism presented to mitigate such biases is not clear at all, but the overall hypothesis is that **there is some orthogonality between identity an sensitivity attributes (age, gender, ....)**, and CNNs are regulirized with that.
+**About biases mitigation;** The regularization mechanism presented to mitigate such biases is not clear at all, but the overall hypothesis is that **there is some orthogonality between identity and sensitivity attributes (age, gender, ....)**, and CNNs are regulirized with that.
 
 ## Findings
 
