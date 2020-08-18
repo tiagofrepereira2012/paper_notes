@@ -12,9 +12,8 @@
  - [x] The impact of age and threshold variation on facial recognition algorithm performance using images of children  [ [link](https://ieeexplore.ieee.org/document/8411225)] [ [notes](./the_impact_of_age_and_threshold.md) ]
  - [ ] DebFace: De-biasing Face Recognition [ [link](https://arxiv.org/abs/1911.08080)] [ [notes]() ]
  - [ ] Why face recognition accuracy varies due to race [link](https://www.sciencedirect.com/science/article/abs/pii/S0969476519301146) [notes]()
- - [ ] Why face recognition accuracy varies due to race [link](https://www.sciencedirect.com/science/article/abs/pii/S0969476519301146) [notes]()
  - [x] Investigating Bias in Deep Face Analysis: The KANFace Dataset and Empirical Study [link](https://arxiv.org/abs/2005.07302) [notes](./investigating_bias_in_deep_face_analysis.md)
- - [ ] Face Recognition: Too Bias, or Not Too Bias? [link](https://arxiv.org/pdf/2002.06483.pdf)[notes]()
+ - [x] Face Recognition: Too Bias, or Not Too Bias? [link](https://arxiv.org/pdf/2002.06483.pdf)[notes](./too_bias_or_not_too_bias.md)
  
 ## The 2nd Workshop on Demographic Variation in the Performance of Biometric Systems
 
