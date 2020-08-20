@@ -27,3 +27,6 @@
  - [ ] Recognition for faces of own and other race [[link](https://psycnet.apa.org/record/1970-03560-001)][[notes]()]
  - [ ] Simulating the ‘Other-race Effect’ as a Problem in Perceptual Learning [[link](https://www.researchgate.net/publication/261693748_Simulating_the_'Other-race_Effect'_as_a_Problem_in_Perceptual_Learning)][[notes]()]
  - [ ] Thirty years of investigating the own-race bias in memory for faces: A meta-analytic review [[link](https://psycnet.apa.org/record/2001-14540-001)][[notes]()]
+
+
+
