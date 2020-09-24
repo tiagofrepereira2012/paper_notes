@@ -14,6 +14,8 @@
  - [ ] Why face recognition accuracy varies due to race [link](https://www.sciencedirect.com/science/article/abs/pii/S0969476519301146)] [[notes]()]
  - [x] Investigating Bias in Deep Face Analysis: The KANFace Dataset and Empirical Study [[link](https://arxiv.org/abs/2005.07302)] [[notes](./investigating_bias_in_deep_face_analysis.md)]
  - [x] Face Recognition: Too Bias, or Not Too Bias? [[link](https://arxiv.org/pdf/2002.06483.pdf)] [[notes](./too_bias_or_not_too_bias.md)]
+ - [ ] An Experimental Evaluation of CovariatesEffects on Unconstrained Face Verification [[link](https://arxiv.org/pdf/1808.05508.pdf)] [[notes]()]
+ - [ ] Understanding Unequal Gender Classification Accuracyfrom Face Images [[link](https://arxiv.org/pdf/1812.00099.pdf)] [[notes]()]
  
 ## The 2nd Workshop on Demographic Variation in the Performance of Biometric Systems
 
