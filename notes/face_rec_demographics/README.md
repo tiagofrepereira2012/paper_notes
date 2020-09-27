@@ -22,6 +22,8 @@
  - [ ] The 2nd Workshop on Demographic Variation in the Performance of Biometric Systems [[link](https://arxiv.org/pdf/2002.00065.pdf)][[notes]()]
  - [ ] Mitigating Algorithmic Bias: Evolving anAugmentation Policy that is Non-Biasing [[link](http://openaccess.thecvf.com/content_WACVW_2020/papers/w1/Smith_Mitigating_Algorithmic_Bias_Evolving_an_Augmentation_Policy_that_is_Non-Biasing_WACVW_2020_paper.pdf)[[notes]()]
  -  x] Reducing Geographic Performance Differentials for Face Recognition [[link](https://arxiv.org/pdf/2002.12093.pdf)][[notes]()]
+ - [ ] Empirically analyzing the effect of dataset biases on deep face recognition systems [[link](https://arxiv.org/pdf/1712.01619.pdf)]
+ - [ ] A Deeper Look at Dataset Bias [[link](https://arxiv.org/pdf/1505.01257.pdf)] 
  
  
 ## Psicology of Face Recognition
