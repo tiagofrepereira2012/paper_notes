@@ -16,6 +16,7 @@
  - [x] Face Recognition: Too Bias, or Not Too Bias? [[link](https://arxiv.org/pdf/2002.06483.pdf)] [[notes](./too_bias_or_not_too_bias.md)]
  - [ ] An Experimental Evaluation of CovariatesEffects on Unconstrained Face Verification [[link](https://arxiv.org/pdf/1808.05508.pdf)] [[notes]()]
  - [ ] Understanding Unequal Gender Classification Accuracyfrom Face Images [[link](https://arxiv.org/pdf/1812.00099.pdf)] [[notes]()]
+ - [ ] Reducing Geographic Performance Differential for Face Recognition [[link](https://arxiv.org/abs/2002.12093)] [[notes]()]
  
 ## The 2nd Workshop on Demographic Variation in the Performance of Biometric Systems
 
