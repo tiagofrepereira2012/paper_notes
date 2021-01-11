@@ -1,18 +1,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tiagofrepereira2012/MINE/master?filepath=MINE.ipynb)
 
-# MINE - Mutual Information Neura Estimation - TF 2
+# Arcface
 
-Tensorflow 2 implementation of MINE - Mutual Information Neural Estimation (https://arxiv.org/pdf/1801.04062.pdf)
-
-
-## How to use?
+Tensorflow 2 implementation of ArcFace and other open-set based CNNs ( ArcFace: Additive Angular Margin Loss for Deep Face Recognition (https://arxiv.org/abs/1801.07698) )
 
 
-```python
-from mine import MineModel
-model = MineModel()
-model.compile(optimizer="adam")
-model.fit(x=[X, Z])
-```
-
-![](MINE.png)
