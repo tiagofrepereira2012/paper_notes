@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tiagofrepereira2012/MINE/master?filepath=MINE.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tiagofrepereira2012/paper_notes/blob/master/notes/ml/MINE/MINE.ipynb)
 
 # MINE - Mutual Information Neura Estimation - TF 2
 
