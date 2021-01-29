@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]https://colab.research.google.com/github/tiagofrepereira2012/paper_notes/blob/master/notes/ml/arcface/arcface.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tiagofrepereira2012/paper_notes/blob/master/notes/ml/arcface/arcface.ipynb)
 
 # Arcface
 
